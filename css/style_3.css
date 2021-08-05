@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: aqua;
+}
+
+nav {
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    background-color: coral;
+}
+
+section p {
+    float: left;
+    width: 33.333%;
+
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+    /* background-color: khaki; */
+}
+
+@media (max-width:600px) {
+    section p {
+        width: 100%;
+    }
+}
+
+footer {
+    clear: both;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
